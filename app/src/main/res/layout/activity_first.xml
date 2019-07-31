@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.thsolutions.traininfo.Main2Activity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        <!--android:layout_above="@+id/adView1"-->
+        style="@android:style/Widget.Holo.Light.ScrollView"
+        android:clipToPadding="true"
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/spot"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:text="@string/spot">
+            </Button>
+
+            <Button
+                android:id="@+id/schedule"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:text="@string/schedule">
+
+            </Button>
+
+            <Button
+                android:id="@+id/trains"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:text="@string/trains">
+
+            </Button>
+
+            <Button
+                android:id="@+id/seatav"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:text="@string/seatav">
+
+            </Button>
+
+            <Button
+                android:id="@+id/pnr"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:text="@string/pnr">
+
+            </Button>
+
+            <Button
+                android:id="@+id/cancel"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:text="@string/cancel">
+
+            </Button>
+
+            <Button
+                android:id="@+id/reschedule"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:text="@string/reschedule">
+
+            </Button>
+
+            <Button
+                android:id="@+id/diverted"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+                android:text="@string/diverted">
+
+            </Button>
+
+
+
+        </LinearLayout>>
+
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_gravity="bottom"/>
+</RelativeLayout>

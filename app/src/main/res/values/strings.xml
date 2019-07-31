@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Train Info</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4302621275268369/2784786140</string>
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+
+
+    <string name="action_settings">Settings</string>
+    <string name="spot">Spot Your Train</string>
+    <string name="pnr">PNR Enquiry</string>
+    <string name="seatav">Seat Availability</string>
+    <string name="schedule">Train Schedule</string>
+    <string name="trains">Trains B/w Stations</string>
+    <!--<string name="seats">Seat Availability</string> -->
+    <string name="cancel">Cancelled Trains</string>
+    <string name="reschedule">Rescheduled Trains</string>
+    <string name="diverted">Diverted Trains</string>
+
+</resources>
